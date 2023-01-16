@@ -45,33 +45,6 @@ function ExperienceCard({ id, company, jobtitle, startYear, endYear }) {
           </h5>
           <h4 style={{ color: theme.tertiary }}>{jobtitle}</h4>
           <h5 style={{ color: theme.tertiary80 }}>{company}</h5>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description1}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description2}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description3}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description4}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description5}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description6}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description7}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description8}
-          </h6>
-          <h6 style={{ color: theme.tertiary80, textAlign: "justify" }}>
-            {description9}
-          </h6>
         </div>
       </div>
       <div></div>
