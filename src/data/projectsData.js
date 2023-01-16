@@ -1,6 +1,8 @@
 import image1 from "../assets/png/NuMoves.png";
 import image2 from "../assets/png/covid19.PNG";
 import image3 from "../assets/png/portfolio.PNG";
+import image4 from "../assets/png/Movie-Finder.PNG";
+import image5 from "../assets/png/HER.PNG";
 
 export const projectsData = [
   {
@@ -21,7 +23,7 @@ export const projectsData = [
     tags: ["JAVA", "JAVA Swing"],
     code: "https://github.com/nawani-rohit/HER-Heal-Empower-Relief-",
     demo: "https://github.com/nawani-rohit/HER-Heal-Empower-Relief-",
-    image: "",
+    image: image5,
   },
   {
     id: 3,
@@ -31,7 +33,7 @@ export const projectsData = [
     tags: ["React", "Express", "MongoDB", "NodeJS", "API"],
     code: "https://github.com/nawani-rohit/Movie-Finder",
     demo: "https://github.com/nawani-rohit/Movie-Finder",
-    image: "",
+    image: image4,
   },
   {
     id: 4,
