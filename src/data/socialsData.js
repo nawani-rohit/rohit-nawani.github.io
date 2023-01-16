@@ -1,0 +1,15 @@
+export const socialsData = {
+  github: "https://github.com/nawani-rohit",
+  facebook: "",
+  linkedIn: "https://www.linkedin.com/in/rohit-nawani98/",
+  email: "https://outlook.office.com/nawani.r@northeastern.edu",
+  instagram: "",
+  codepen: "",
+  twitter: "",
+  reddit: "",
+  blogger: "",
+  medium: "",
+  stackOverflow: "",
+  gitlab: "",
+  youtube: "",
+};
