@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Snackbar, IconButton, SnackbarContent } from "@material-ui/core";
 import CloseIcon from "@material-ui/icons/Close";
-import axios from "axios";
 import isEmail from "validator/lib/isEmail";
 import { makeStyles } from "@material-ui/core/styles";
 import { FaLinkedinIn, FaGithub, FaEnvelope, FaMediumM } from "react-icons/fa";
@@ -117,36 +116,36 @@ function Contacts() {
 
   const classes = useStyles();
 
-  const handleContactForm = (e) => {
-    e.preventDefault();
+  // const handleContactForm = (e) => {
+  //   e.preventDefault();
 
-    if (name && email && message) {
-      if (isEmail(email)) {
-        const responseData = {
-          name: name,
-          email: email,
-          message: message,
-        };
+  //   if (name && email && message) {
+  //     if (isEmail(email)) {
+  //       const responseData = {
+  //         name: name,
+  //         email: email,
+  //         message: message,
+  //       };
 
-        axios.post(contactsData.sheetAPI, responseData).then((res) => {
-          console.log("success");
-          setSuccess(true);
-          setErrMsg("");
+  //       axios.post(contactsData.sheetAPI, responseData).then((res) => {
+  //         console.log("success");
+  //         setSuccess(true);
+  //         setErrMsg("");
 
-          setName("");
-          setEmail("");
-          setMessage("");
-          setOpen(false);
-        });
-      } else {
-        setErrMsg("Invalid email");
-        setOpen(true);
-      }
-    } else {
-      setErrMsg("Enter all the fields");
-      setOpen(true);
-    }
-  };
+  //         setName("");
+  //         setEmail("");
+  //         setMessage("");
+  //         setOpen(false);
+  //       });
+  //     } else {
+  //       setErrMsg("Invalid email");
+  //       setOpen(true);
+  //     }
+  //   } else {
+  //     setErrMsg("Enter all the fields");
+  //     setOpen(true);
+  //   }
+  // };
 
   return (
     <div
